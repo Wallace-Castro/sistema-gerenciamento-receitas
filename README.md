@@ -39,6 +39,7 @@ Um dos principais desafios foi implementar um sistema de permissões, diferencia
 
 - **Backend:** `PHP`
 - **Banco de Dados:** `MySQL`
+- **IDE:** `Netbeans`
 - **Frontend:** `HTML`, `CSS`, `JavaScript`
 - **Ambiente de Desenvolvimento:** `XAMPP`
 
