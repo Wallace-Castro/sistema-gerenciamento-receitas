@@ -1,0 +1,66 @@
+body {
+    background: linear-gradient(135deg, #6c757d, #343a40);
+    background-size: cover;
+    background-attachment: fixed;
+    color: #000;
+}
+.navbar {
+    background-color: #343a40 !important;
+}
+.pesquisa-card {
+    background-color: rgba(255, 255, 255, 0.9);
+    border-radius: 15px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+    margin-top: 20px;
+}
+.pesquisa-card .card-header {
+    background-color: #343a40;
+    color: #fff;
+    border-radius: 10px 10px 0 0;
+    padding: 15px 20px;
+    font-weight: bold;
+}
+.pesquisa-card .form-group {
+    margin-bottom: 20px;
+}
+.pesquisa-card .btn-custom {
+    background-color: #ffc107;
+    border-color: #ffc107;
+    color: #343a40;
+}
+.pesquisa-card .btn-custom:hover {
+    background-color: #ffb400;
+    border-color: #ffb400;
+}
+.recipe {
+    margin-top: 20px;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+}
+.recipe:hover {
+    transform: scale(1.03);
+}
+.recipe h2 {
+    color: #343a40;
+}
+.recipe h3 {
+    color: #ffc107;
+}
+.recipe-content {
+    padding: 10px;
+}
+.recipe button {
+    background-color: #ffc107;
+    border: none;
+    color: #343a40;
+    padding: 5px 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+}
+.recipe button:hover {
+    background-color: #ffb400;
+}

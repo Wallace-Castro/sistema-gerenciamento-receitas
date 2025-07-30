@@ -1,0 +1,76 @@
+body {
+    background: url('../img/fundo.jpg');
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+#receitas {
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.receita {
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  padding: 10px;
+  margin-bottom: 5px;
+  cursor: pointer;
+}
+
+.recipe {
+    border: 2px solid #ffc107;
+    padding: 20px;
+    margin-bottom: 20px;
+    position: relative;
+    background-color: #f8f9fa;
+}
+
+.recipe-content {
+    background-color: white;
+    padding: 15px;
+    border-radius: 5px;
+}
+
+#favoritos {
+    background-color: #f2f2f2; 
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 20px;
+    position: fixed;
+    top: 0; 
+    right: 20px;
+    width: 200px;
+    z-index: 1000;
+    overflow-y: auto;
+}
+
+.btn-remover {
+    background-color: transparent;
+    border: none;
+    color: #000; 
+    cursor: pointer;
+    float: right;
+    font-size: 16px;
+}
+
+.btn-remover::before {
+    content: '✕'; 
+    color: red; 
+    font-size: 1.2em;
+    font-weight: bold; 
+}
+
+.recipe button {
+    background-color: #ffc107;
+    border: none;
+    color: #343a40;
+    padding: 5px 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+}
+.recipe button:hover {
+    background-color: #ffb400;
+}

@@ -1,0 +1,36 @@
+body {
+    background: linear-gradient(135deg, #6c757d, #343a40);
+    background-size: cover;
+    background-attachment: fixed;
+    color: #000;
+}
+.navbar {
+    background-color: #343a40 !important;
+}
+.perfil-card {
+    background-color: #ffffff;
+    border-radius: 15px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+    margin-top: 20px;
+}
+.perfil-card .card-header {
+    background-color: #343a40;
+    color: #fff;
+    border-radius: 10px 10px 0 0;
+    padding: 15px 20px;
+    font-weight: bold;
+}
+.perfil-card p {
+    margin-bottom: 10px;
+    font-size: 18px;
+    color: #333;
+}
+.btn-custom {
+    background-color: #dc3545;
+    border-color: #dc3545;
+}
+.btn-custom:hover {
+    background-color: #c82333;
+    border-color: #bd2130;
+}
